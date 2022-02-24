@@ -1,0 +1,119 @@
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .theme_wrapper {
+
+        .nav_wrp {
+            position: fixed;
+            width: 100%;
+            z-index: 9;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            bottom: 0;
+            height: 65px;
+
+            .nav_left {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                justify-content: center;
+                background-color: white;
+                width: 100%;
+            }
+        }
+
+        .banner_hero {
+            height: 60vh;
+            background-color: #f8f8f8;
+            .banner_hed {
+                line-height: 65px;
+            }
+        }
+
+        .about_wrapper {
+            .image_wrapper {
+                overflow: hidden;
+                margin: 0px 15px;
+            }
+
+            .abt_details {
+                padding: 0px 15px;
+            }
+        }
+
+        .services_wrapper {
+            margin: 2rem 0rem;
+            padding: 4rem 0rem;
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            .service_box{
+                margin: 25px 15px;
+            }
+        }
+        .location_mob {
+            .location_mob_detail {
+                padding: 0px 15px;
+            }
+        }
+
+        .designing_wrapper {
+            .designing_detail {
+                p {
+                    max-width: 90%;
+                }
+            }
+            .portfolio-menu {
+                margin: 0px 0px 45px 0px;
+            }
+            .d_tools{
+                padding: 25px 15px;
+            }
+        }
+
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .theme_wrapper {
+
+        .nav_wrp {
+            position: fixed;
+            width: 100%;
+            z-index: 9;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            bottom: 0;
+            height: 65px;
+
+            .nav_left {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                justify-content: center;
+                background-color: white;
+                width: 100%;
+            }
+        }
+
+        .banner_hero {
+            height: 60vh;
+            background-color: #f8f8f8;
+            .banner_hed {
+                line-height: 100px;
+            }
+        }
+
+        .project_wrapper {
+            .images__slider{
+                width: 250px !important;
+            }
+        }
+
+    }
+}
