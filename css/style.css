@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb {
   color: #4c4c4c;
 }
 .theme_wrapper .banner_hero .banner_hed .first_smrt {
-  font-size: 14vw;
+  font-size: 15vw;
 }
 .theme_wrapper .banner_hero .banner_hed .last_words {
   font-size: 13.2vw;
@@ -912,7 +912,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
   }
   .theme_wrapper .banner_hero {
-    height: 60vh;
+    height: 40vh;
     background-color: #f8f8f8;
   }
   .theme_wrapper .banner_hero .banner_hed {
